@@ -17,7 +17,7 @@ body {
 .main-header__logo {
   color: #ebe645;
   display: inline-block;
-  font-size: 1.25rem;
+  font-size: 2rem;
   font-weight: 600;
   text-decoration: none;
   margin: 1.5rem;
@@ -30,10 +30,10 @@ body {
 .main-nav__item {
   background-color: #000;
   border: 2px solid #ebe645;
-  border-radius: 0.3rem;
+  border-radius: 0.5rem;
   display: inline-block;
-  margin: 1.7rem;
-  padding: 0.625rem 0.75rem;
+  margin: 0.5rem;
+  /* padding: 0.15rem 0.3rem; */
 }
 
 .main-nav__link {
@@ -77,7 +77,39 @@ body {
   margin: 1.5rem;
 }
 
-.location-info,
+.location-info {
+  color: #fff;
+}
+
 .contacts {
   color: #fff;
+  text-decoration: none;
+}
+
+.location-info:hover {
+  color: #ebe645;
+  text-decoration: none;
+}
+
+.contacts:hover {
+  color: #ebe645;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 576px) {
+  .hero-section,
+  .contact-info {
+    flex-direction: column;
+  }
+
+  .hero-image {
+    height: 20rem;
+    width: 25rem;
+  }
+
+  .contact-info {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
 }
