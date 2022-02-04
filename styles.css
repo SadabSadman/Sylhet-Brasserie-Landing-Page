@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(to left, #212529, #343a40);
+  font-family: "Montserrat", sans-serif;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-header__logo {
+  color: #ebe645;
+  display: inline-block;
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-decoration: none;
+  margin: 1.5rem;
+}
+
+.main-nav__items {
+  list-style: none;
+}
+
+.main-nav__item {
+  background-color: #000;
+  border: 2px solid #ebe645;
+  border-radius: 0.3rem;
+  display: inline-block;
+  margin: 1.7rem;
+  padding: 0.625rem 0.75rem;
+}
+
+.main-nav__link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1.5rem;
+}
+
+.hero-header {
+  color: #ebe645;
+  font-family: "Rochester", cursive;
+  font-weight: 400;
+  font-size: 4rem;
+  margin: auto auto 1.5rem;
+  text-align: center;
+}
+
+.hero-description {
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 600;
+  width: 25rem;
+  text-align: center;
+}
+
+.hero-image {
+  margin: 5rem auto;
+  height: 28rem;
+  width: 40rem;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: space-between;
+  margin: 1.5rem;
+}
+
+.location-info,
+.contacts {
+  color: #fff;
+}
