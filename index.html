@@ -21,18 +21,24 @@
       crossorigin="anonymous"
     ></script>
 
-    <!-- External Stylesheet -->
+    <!-- Bootstrap 4.6 & CSS Stylesheets -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="styles.css" />
 
     <title>Sylhet Brasserie Landing Page</title>
   </head>
   <body>
-    <header class="main-header">
+    <!-- <header class="main-header">
       <div>
         <a href="#" class="main-header__logo">Sylhet Brasserie</a>
-      </div>
+      </div> -->
 
-      <nav class="main-nav">
+      <!-- <nav class="main-nav">
         <ul class="main-nav__items">
           <li class="main-nav__item">
             <a href="#" class="main-nav__link">About Us</a>
@@ -46,7 +52,37 @@
             <a href="#" class="main-nav__link">Book A Table</a>
           </li>
         </ul>
+      </nav> -->
+
+      <header>
+        <nav class="navbar navbar-expand-md navbar-dark">
+        <a class="navbar-brand main-header__logo" href="#">Sylhet Brasserie</a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item main-nav__item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item main-nav__item">
+              <a class="nav-link" href="#">Order Online</a>
+            </li>
+            <li class="nav-item main-nav__item">
+              <a class="nav-link" href="#">Book A Table</a>
+            </li>
+          </ul>
+        </div>
       </nav>
+      </header>
+      
     </header>
 
     <main class="hero-section">
@@ -65,15 +101,27 @@
 
     <div class="contact-info">
       <div>
-        <a class="location-info"
-          ><i class="fas fa-home"></i> 36 The Square Grandtown On Spey PH26
+        <a class="location-info" href="https://goo.gl/maps/BBMzDKpjt2oFr3XWA"
+          ><i class="fas fa-home"></i> 36 The Square Grantown On Spey PH26
           3HF</a
         >
       </div>
 
-      <div class="contacts">
-        <a>Tel: (01479) 873536</a>
+      <div>
+        <a class="contacts" href="tel:(01479) 873536">Tel: (01479) 873536</a>
       </div>
     </div>
+
+    <!-- bootstrap 4.6 scripts -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
